@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE23084B2708FAB200D4C129 /* openPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23084A2708FAB200D4C129 /* openPage.swift */; };
+		CE230851270B9F7800D4C129 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230850270B9F7800D4C129 /* mainPage.swift */; };
+		CE230852270B9F7800D4C129 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230850270B9F7800D4C129 /* mainPage.swift */; };
+		CE23085C270BD40C00D4C129 /* mainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23085B270BD40C00D4C129 /* mainTab.swift */; };
+		CE23085D270BD40C00D4C129 /* mainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23085B270BD40C00D4C129 /* mainTab.swift */; };
+		CE23085F270BD45F00D4C129 /* topToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23085E270BD45F00D4C129 /* topToolBar.swift */; };
+		CE230860270BD45F00D4C129 /* topToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23085E270BD45F00D4C129 /* topToolBar.swift */; };
 		CE837EE226FC2027003C89DF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE837EE126FC2027003C89DF /* Tests_iOS.swift */; };
 		CE837EE426FC2027003C89DF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE837EE326FC2027003C89DF /* Tests_iOSLaunchTests.swift */; };
 		CE837EEE26FC2027003C89DF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE837EED26FC2027003C89DF /* Tests_macOS.swift */; };
@@ -41,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE23084A2708FAB200D4C129 /* openPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openPage.swift; sourceTree = "<group>"; };
+		CE230850270B9F7800D4C129 /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; tabWidth = 4; };
+		CE23085B270BD40C00D4C129 /* mainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTab.swift; sourceTree = "<group>"; };
+		CE23085E270BD45F00D4C129 /* topToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topToolBar.swift; sourceTree = "<group>"; };
 		CE837EC726FC2025003C89DF /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		CE837EC826FC2025003C89DF /* mist_marketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mist_marketApp.swift; sourceTree = "<group>"; };
 		CE837EC926FC2025003C89DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE230853270BBD3F00D4C129 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CE230854270BCE3A00D4C129 /* common views */,
+				CE23084A2708FAB200D4C129 /* openPage.swift */,
+				CE230850270B9F7800D4C129 /* mainPage.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CE230854270BCE3A00D4C129 /* common views */ = {
+			isa = PBXGroup;
+			children = (
+				CE23085B270BD40C00D4C129 /* mainTab.swift */,
+				CE23085E270BD45F00D4C129 /* topToolBar.swift */,
+			);
+			path = "common views";
+			sourceTree = "<group>";
+		};
 		CE837EC026FC2025003C89DF = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +133,7 @@
 		CE837EC526FC2025003C89DF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CE230853270BBD3F00D4C129 /* views */,
 				CE837EC826FC2025003C89DF /* mist_marketApp.swift */,
 				CE837EC926FC2025003C89DF /* ContentView.swift */,
 				CE837ECA26FC2025003C89DF /* Persistence.swift */,
@@ -308,9 +339,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE837EF326FC2027003C89DF /* mist_marketApp.swift in Sources */,
+				CE230851270B9F7800D4C129 /* mainPage.swift in Sources */,
 				CE837EF726FC2027003C89DF /* Persistence.swift in Sources */,
+				CE23085F270BD45F00D4C129 /* topToolBar.swift in Sources */,
 				CE837EF126FC2027003C89DF /* mist_market.xcdatamodeld in Sources */,
+				CE23085C270BD40C00D4C129 /* mainTab.swift in Sources */,
 				CE837EF526FC2027003C89DF /* ContentView.swift in Sources */,
+				CE23084B2708FAB200D4C129 /* openPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE23085D270BD40C00D4C129 /* mainTab.swift in Sources */,
+				CE230860270BD45F00D4C129 /* topToolBar.swift in Sources */,
 				CE837EF426FC2027003C89DF /* mist_marketApp.swift in Sources */,
+				CE230852270B9F7800D4C129 /* mainPage.swift in Sources */,
 				CE837EF826FC2027003C89DF /* Persistence.swift in Sources */,
 				CE837EF226FC2027003C89DF /* mist_market.xcdatamodeld in Sources */,
 				CE837EF626FC2027003C89DF /* ContentView.swift in Sources */,
