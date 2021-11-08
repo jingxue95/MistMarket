@@ -11,6 +11,14 @@ struct mainPage: View {
     var body: some View {
         VStack{
             topToolBar()
+            ScrollView(.horizontal) {
+                        HStack(spacing: 10) {
+                            ForEach(0..<11)
+                               {(index) in
+                                   productCard()
+                               }
+                        }
+                    }
             mainTab()
         }
     }

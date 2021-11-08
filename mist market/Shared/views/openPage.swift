@@ -9,17 +9,10 @@ import SwiftUI
 
 struct openPage: View {
     var body: some View {
-        NavigationView{
-            VStack{
-                Text("mist market")
                 HStack{
-                    NavigationLink(destination: mainPage()){Text("Login")}
-                    NavigationLink(destination: mainPage()){Text("Continue as guest")}
-                }
-                
-            }
+                        NavigationLink(destination: loginPage()){Text("Login")}
+                        NavigationLink(destination: mainPage()){Text("Continue as guestsss")}
         }
-        
     }
 }
 
